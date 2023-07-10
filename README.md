@@ -5,7 +5,9 @@ Background
 A fictional company wants to analyze information about people whom the company employed during the 1980s and 1990s. All that remains of the employee database from that period are six CSV files. Design SQL tables to hold the data from the CSV files, import the CSV files into a SQL database, and compile an analysis. That is, perform data modeling, data engineering, and data analysis, respectively.
 ## Objective ##
 #### Data Modeling ####
-Inspect the CSV files and sketch an Entity Relationship Diagram of the tables. That diagram can be found in the png file in this repository.
+Inspect the CSV files and sketch an Entity Relationship Diagram of the tables. 
+<img width="834" alt="Screenshot 2023-07-09 at 8 03 27 PM" src="https://github.com/m-janssens-boop/sql_challenge/assets/127706155/a2150bf1-4e5e-4c36-af27-207ad4e71f19">
+
 #### Data Engineering ####
 Write a table schema for each of the sic CSV files that includes:
 * Specified datatypes
@@ -30,3 +32,4 @@ Import each csv file into their corresponding SQL table
 * List each employee in the Sales and Development departments, including their employee number, last name, first name, and department name.
 
 * List the frequency counts, in descending order, of all the employee last names (that is, how many employees share each last name).
+<img width="812" alt="Screenshot 2023-07-09 at 8 03 10 PM" src="https://github.com/m-janssens-boop/sql_challenge/assets/127706155/d0ac180d-cbf7-43da-91bd-f4ec6dff653a">
